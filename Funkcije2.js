@@ -79,6 +79,8 @@ console.log(split("Danas je subota"));
 // Note: A prime number (or a prime) is a natural number greater than 1 that has no positive
 // divisors other than 1 and itself.
 
+// KOMENTAR: za broj 8 dobijas da je prost (PRIME) broj. To NIJE prost broj jer je osim sa 1 i sa samim sobom deljiv i sa 2 i 4.
+
 function Prime(params) {
   if (params > 0) {
     if (params / params == 1) {
